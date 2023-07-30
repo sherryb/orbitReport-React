@@ -21,8 +21,12 @@ function App() {
   return (
     <div>
       <Banner />
-      <Buttons />
-      <Table />
+      <Buttons 
+        filterByType = {filterByType}
+        setSat = {setSat}
+        displaySays = {displaySats}  
+      />
+      <Table sat={sat}/>
     </div>
   );
 }
