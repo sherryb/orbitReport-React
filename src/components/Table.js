@@ -1,14 +1,21 @@
 const Table = ({ sat }) => {
+
   return (
       <table>
        <thead>
         <tr>
-          <th>Header TBD</th>
+          <th> Name </th>
+          <th> Type </th>
+          <th> Launch Date </th>
+          <th> Status </th>
         </tr>
         </thead>
         <tbody>
         <tr>
-          <td>Row Data TBD</td>
+          <td> Row Data </td>
+          <td> Row Data </td>
+          <td> Row Data </td>
+          <td> Row Data </td>
         </tr>
         </tbody>
       </table>
