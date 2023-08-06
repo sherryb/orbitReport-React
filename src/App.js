@@ -24,7 +24,7 @@ function App() {
       <Buttons 
         filterByType = {filterByType}
         setSat = {setSat}
-        displaySays = {displaySats}  
+        displaySats = {displaySats}  
       />
       <Table sat={sat}/>
     </div>
