@@ -59,6 +59,11 @@ h1 {
   font-size: 60px;
 }
 
-.sat-image {
-  display:block;
+.sat-image img {
+  width: 270px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  
 }
