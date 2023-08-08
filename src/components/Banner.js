@@ -1,3 +1,5 @@
+import styling from "../components/styling.css"
+
 const Banner = () => {
     return (
         <div>
