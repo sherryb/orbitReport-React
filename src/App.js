@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Buttons from "./components/Buttons";
 import Table from "./components/Table";
 import Banner from "./components/Banner";
-import satData from "./components/satData.js"
+import satData from "./components/satData.js";
+import SatelliteImage from "./components/SatImage.js";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         displaySats = {displaySats}  
       />
       <Table sat={sat}/>
+      <SatelliteImage />
     </div>
   );
 }
