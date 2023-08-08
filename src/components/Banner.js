@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div>
             <h1>Orbit Report</h1>
-            <p> Click Buttons if You Dare </p>
+            <p> Click the buttons to see satellites by orbit type </p>
         </div>
     )
 }
