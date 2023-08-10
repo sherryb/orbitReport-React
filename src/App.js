@@ -4,6 +4,7 @@ import Buttons from "./components/Buttons";
 import Table from "./components/Table";
 import Banner from "./components/Banner";
 import satData from "./components/satData.js";
+// Linter throws an error for this import for some reason but it is working correctly
 import SatelliteImage from './components/SatImage';
 
 
